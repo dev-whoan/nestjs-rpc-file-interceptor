@@ -3,7 +3,7 @@ import * as path from 'path';
 
 @Injectable()
 export class FilesService {
-  private logger = new Logger('FileServerService');
+  private logger = new Logger('FilesService');
 
   async uploadFile(
     files: Express.Multer.File[],

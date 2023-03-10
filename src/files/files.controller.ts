@@ -1,7 +1,7 @@
 import { Controller, Get, HttpStatus, UseInterceptors } from '@nestjs/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
-import { multerOptions } from 'src/common/rpc-files/multer/multer.options';
-import { RpcFilesInterceptor } from 'src/common/rpc-files/rpc-files.interceptor';
+import { multerOptions } from '../common/rpc-files/multer/multer.options';
+import { RpcFilesInterceptor } from '../common/rpc-files/rpc-files.interceptor';
 import { MicroserviceResponseWrapper } from './data/microservice-response.wrapper';
 import { FilesService } from './files.service';
 
